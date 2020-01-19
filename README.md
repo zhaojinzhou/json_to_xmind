@@ -2,10 +2,10 @@
 A python3 script translate json to xmind
 
 ### required python3 package
-xmind == 1.12.0
+xmind == 1.2.0
 
 ### using  
-`pip3 install xmind==1.12.0`
+`pip3 install xmind==1.2.0`
 
 ### motivation:  
   Often need to compare or clarify message with colleagues.  
