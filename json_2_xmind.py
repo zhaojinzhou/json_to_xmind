@@ -4,17 +4,17 @@ import sys
 import os
 
 def dfs(topic_data, topic):
-    if str(type(topic_data)) == "<class 'dict'>":
+    if isinstance(topic_data,dict):
         for i in topic_data.keys():
             sub_topic = topic.addSubTopic()
             sub_topic.setTitle(i)
             dfs(topic_data[i], sub_topic)
     else:
-        if str(type(topic_data)) == "<class 'list'>":
+        if isinstance(topic_data,list):
             data=''
             index = 0
             for i in topic_data:
-                if(str(type(i)) == "<class 'dict'>"):
+                if isinstance(i,dict):
                     sub_topic = topic.addSubTopic()
                     sub_topic.setTitle(index)
                     index += 1
