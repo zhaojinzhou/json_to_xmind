@@ -12,7 +12,7 @@ xmind == 1.12.0
   So I write this simple script to translate a json code to xmind, which I think is more user-friendly.  
   Test the latest official xmind app. The output crashed.   
   But recommend you to use https://naotu.baidu.com to upload the output file to generate the xmind file.  
-  I'm working in BAIDU `~_~`
+   `~_~`
 
 ## usages:
 
