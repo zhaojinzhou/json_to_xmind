@@ -5,7 +5,7 @@ A python3 script translate json to xmind
 xmind == 1.12.0
 
 ### using  
-`pip3 install xmind == 1.12.0`
+`pip3 install xmind==1.12.0`
 
 ### motivation:  
   Often need to compare or clarify message with colleagues.  
